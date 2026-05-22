@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Fitness - Premium Gym & Fitness Center</title>
+    <meta name="description" content="Welcome to Royal Fitness, a premium gym owned by Ahsan Jeho on Mehran University Road. Experience top-tier training, luxury equipment, and motivational atmosphere. Join now for 5000 PKR.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header / Sticky Navigation -->
+    <header class="main-header" id="header">
+        <div class="header-container">
+            <a href="#home" class="logo">
+                <span class="logo-crown"><i class="fa-solid fa-crown"></i></span>
+                <span class="logo-text">ROYAL <span class="gold-text">FITNESS</span></span>
+            </a>
+            
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#membership" class="nav-link">Membership</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-cta-mobile"><a href="#register" class="btn btn-gold btn-sm">Join Now</a></li>
+                </ul>
+            </nav>
+
+            <!-- Desktop CTA -->
+            <div class="header-cta">
+                <a href="#register" class="btn btn-gold btn-sm">Join Now</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="hero-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.85)), url('assets/hero_bg.png');"></div>
+        <div class="hero-content container">
+            <h5 class="hero-subtitle reveal reveal-fade-up">WELCOME TO THE ELITE CLUB</h5>
+            <h1 class="hero-title reveal reveal-fade-up" style="transition-delay: 0.1s;">
+                RULE YOUR BODY<br>
+                <span class="gold-text-gradient">BUILD YOUR EMPIRE.</span>
+            </h1>
+            <p class="hero-description reveal reveal-fade-up" style="transition-delay: 0.2s;">
+                Experience the ultimate luxury fitness training on Mehran University Road. 
+                Premium equipment, elite coaching, and a motivational atmosphere customized for champions.
+            </p>
+            <div class="hero-actions reveal reveal-fade-up" style="transition-delay: 0.3s;">
+                <a href="#register" class="btn btn-gold">JOIN ROYAL CLUB <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#membership" class="btn btn-outline">EXPLORE PLANS</a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <a href="#about" aria-label="Scroll Down">
+                <span class="mouse-icon">
+                    <span class="wheel"></span>
+                </span>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section section-padding" id="about">
+        <div class="container grid-2">
+            <div class="about-content reveal reveal-fade-right">
+                <span class="section-tagline">ABOUT ROYAL FITNESS</span>
+                <h2 class="section-title">A PREMIUM FITNESS EXPERIENCE</h2>
+                <div class="gold-line"></div>
+                <p class="about-vision">
+                    Founded by fitness visionary <strong>Ahsan Jeho</strong>, Royal Fitness stands as a beacon of high-end strength training and physical transformation. Our mission is to elevate your workout experience by offering a luxury space where discipline meets state-of-the-art facilities.
+                </p>
+                <p class="about-description">
+                    We believe that achieving your peak physical form requires an elite environment. Whether your goal is general athletic improvement, competitive strength training, or personal body sculpting, our facility on Mehran University Road is fully equipped to guide your journey.
+                </p>
+                <div class="about-stats-grid">
+                    <div class="stat-card">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Certified Trainers</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Premium Machines</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Results Driven</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image-wrapper reveal reveal-fade-left">
+                <div class="about-image-border"></div>
+                <div class="about-img-box">
+                    <img src="assets/guidance.png" alt="Ahsan Jeho Royal Fitness Training" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section section-padding bg-darker" id="services">
+        <div class="container">
+            <div class="section-header text-center reveal reveal-fade-up">
+                <span class="section-tagline">OUR SERVICES</span>
+                <h2 class="section-title">TAILORED TRAINING PROGRAMS</h2>
+                <div class="gold-line center"></div>
+                <p class="section-subtitle">We offer premium amenities and expert-led training systems to help you sculpt your dream physique.</p>
+            </div>
+
+            <div class="services-grid grid-3">
+                <!-- Service Card 1 -->
+                <div class="service-card reveal reveal-fade-up" style="transition-delay: 0.1s;">
+                    <div class="service-img-container">
+                        <img src="assets/cardio.png" alt="Cardio Training" class="service-img">
+                        <div class="service-icon-box">
+                            <i class="fa-solid fa-heart-pulse"></i>
+                        </div>
+                    </div>
+                    <div class="service-info">
+                        <h3>Cardio Training</h3>
+                        <p>Boost your endurance and cardiovascular strength using high-end treadmills, elliptical systems, and specialized high-intensity routines.</p>
+                        <a href="#register" class="service-link">Get Started <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="service-card reveal reveal-fade-up" style="transition-delay: 0.2s;">
+                    <div class="service-img-container">
+                        <img src="assets/weight_lifting.png" alt="Weight Lifting" class="service-img">
+                        <div class="service-icon-box">
+                            <i class="fa-solid fa-dumbbell"></i>
+                        </div>
+                    </div>
+                    <div class="service-info">
+                        <h3>Weight Lifting</h3>
+                        <p>Access our premium range of heavy free weights, olympic standard plates, lifting platforms, and professional strength equipment.</p>
+                        <a href="#register" class="service-link">Get Started <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="service-card reveal reveal-fade-up" style="transition-delay: 0.3s;">
+                    <div class="service-img-container">
+                        <!-- We reuse guidance.png or use a custom one if available. Let's make it look top tier -->
+                        <img src="assets/guidance.png" alt="Personal Fitness Guidance" class="service-img">
+                        <div class="service-icon-box">
+                            <i class="fa-solid fa-user-ninja"></i>
+                        </div>
+                    </div>
+                    <div class="service-info">
+                        <h3>Personal Guidance</h3>
+                        <p>Receive custom workout programs, nutrition coaching, and hands-on posture analysis from our professional training instructors.</p>
+                        <a href="#register" class="service-link">Get Started <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Section -->
+    <section class="membership-section section-padding" id="membership">
+        <div class="container">
+            <div class="section-header text-center reveal reveal-fade-up">
+                <span class="section-tagline">MEMBERSHIP PLAN</span>
+                <h2 class="section-title">CHOOSE YOUR PATH TO ELITE FITNESS</h2>
+                <div class="gold-line center"></div>
+                <p class="section-subtitle">Unlock full access to Royal Fitness and start working toward your ultimate self.</p>
+            </div>
+
+            <div class="membership-container reveal reveal-fade-up" style="transition-delay: 0.1s;">
+                <!-- Main Premium Plan -->
+                <div class="pricing-card premium-card">
+                    <div class="card-badge">MOST POPULAR</div>
+                    <div class="pricing-header">
+                        <span class="plan-icon"><i class="fa-solid fa-gem"></i></span>
+                        <h3>PREMIUM MEMBERSHIP</h3>
+                        <div class="price-box">
+                            <span class="currency">PKR</span>
+                            <span class="amount">5000</span>
+                            <span class="period">/ Month</span>
+                        </div>
+                    </div>
+                    <div class="pricing-body">
+                        <ul class="pricing-features">
+                            <li><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span> Full 24/7 Gym Access</li>
+                            <li><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span> Elite Cardio Training Area</li>
+                            <li><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span> Advanced Weight Lifting Zone</li>
+                            <li><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span> Unlimited Equipment Usage</li>
+                            <li><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span> Standard Fitness Support</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="#register" class="btn btn-gold btn-block">SECURE ROYAL ACCESS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section class="register-section section-padding bg-darker" id="register">
+        <div class="container grid-2">
+            <div class="register-info reveal reveal-fade-right">
+                <span class="section-tagline">START YOUR TRANSFORMATION</span>
+                <h2 class="section-title">CLAIM YOUR MEMBERSHIP</h2>
+                <div class="gold-line"></div>
+                <p class="register-text">
+                    Fill in the application details. Upon submission, our membership director will contact you via phone or email to schedule your orientation and issue your Royal Membership Card.
+                </p>
+                <div class="benefits-mini">
+                    <div class="benefit-item">
+                        <span class="benefit-icon"><i class="fa-solid fa-bolt"></i></span>
+                        <div>
+                            <h4>Instant Activation</h4>
+                            <p>Get access keycard within 24 hours of confirmation.</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-icon"><i class="fa-solid fa-shield-halved"></i></span>
+                        <div>
+                            <h4>No Hidden Fees</h4>
+                            <p>Fixed 5000 PKR monthly rate. Transparent billing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Registration Form Card -->
+            <div class="form-container-card reveal reveal-fade-left">
+                <div class="form-header">
+                    <h3>Membership Application</h3>
+                    <p>Enter your details to initiate registration</p>
+                </div>
+                <form id="registrationForm" class="registration-form" novalidate>
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <div class="input-wrapper">
+                            <i class="fa-regular fa-user"></i>
+                            <input type="text" id="fullName" placeholder="e.g., Ahsan Jeho" required>
+                        </div>
+                        <span class="error-msg" id="nameError">Name is required</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phoneNumber">Phone Number</label>
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-phone"></i>
+                            <input type="tel" id="phoneNumber" placeholder="e.g., +92 309 7562213" required>
+                        </div>
+                        <span class="error-msg" id="phoneError">Valid phone number is required</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="emailAddress">Email Address</label>
+                        <div class="input-wrapper">
+                            <i class="fa-regular fa-envelope"></i>
+                            <input type="email" id="emailAddress" placeholder="e.g., ahsan@royalfitness.pk" required>
+                        </div>
+                        <span class="error-msg" id="emailError">Valid email is required</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="membershipType">Selected Plan</label>
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-gem"></i>
+                            <select id="membershipType">
+                                <option value="premium" selected>Premium Membership - 5000 PKR / month</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-gold btn-block btn-submit">
+                        <span class="submit-text">SUBMIT APPLICATION</span>
+                        <span class="spinner"><i class="fa-solid fa-circle-notch fa-spin"></i></span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Map Section -->
+    <section class="contact-section section-padding" id="contact">
+        <div class="container grid-2">
+            <div class="contact-info reveal reveal-fade-right">
+                <span class="section-tagline">LOCATION & HOURS</span>
+                <h2 class="section-title">CONNECT WITH ROYAL FITNESS</h2>
+                <div class="gold-line"></div>
+                <p class="contact-description">
+                    Visit our facility to tour our training space, consult with owner <strong>Ahsan Jeho</strong>, and speak to our instructors. No appointment needed for site visits during general hours.
+                </p>
+
+                <div class="contact-details-list">
+                    <div class="contact-detail-item">
+                        <div class="detail-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                        <div class="detail-text">
+                            <h4>Location Address</h4>
+                            <p>Mehran University Road, Khairpur, Pakistan</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail-item">
+                        <div class="detail-icon"><i class="fa-solid fa-phone-volume"></i></div>
+                        <div class="detail-text">
+                            <h4>Phone Hotline</h4>
+                            <p><a href="tel:+923097562213">+92 309 7562213</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail-item">
+                        <div class="detail-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+                        <div class="detail-text">
+                            <h4>Email Queries</h4>
+                            <p><a href="mailto:info@royalfitness.pk">info@royalfitness.pk</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail-item">
+                        <div class="detail-icon"><i class="fa-regular fa-clock"></i></div>
+                        <div class="detail-text">
+                            <h4>Operating Hours</h4>
+                            <p>Monday – Saturday: 06:00 AM – 11:00 PM</p>
+                            <p>Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stylized Map Placeholder (Interactive CSS design) -->
+            <div class="map-wrapper reveal reveal-fade-left">
+                <div class="map-inner">
+                    <div class="map-mesh"></div>
+                    <div class="map-center-ring"></div>
+                    <div class="map-pin">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span class="pin-pulse"></span>
+                    </div>
+                    <div class="map-card-popup">
+                        <h4>Royal Fitness</h4>
+                        <p>Mehran University Road</p>
+                        <a href="https://maps.app.goo.gl/3u5cCGYq4itioh3r6" target="_blank" class="map-popup-btn">Get Directions</a>
+                    </div>
+                    <div class="map-coordinates">27.5256° N, 68.7551° E</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <a href="#home" class="logo">
+                    <span class="logo-crown"><i class="fa-solid fa-crown"></i></span>
+                    <span class="logo-text">ROYAL <span class="gold-text">FITNESS</span></span>
+                </a>
+                <p class="footer-moto">Premium fitness facility dedicated to physical empowerment and elite training guidance under the vision of Ahsan Jeho.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Gym</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#membership">Membership Plans</a></li>
+                    <li><a href="#contact">Contact Details</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-newsletter">
+                <h4>Stay Motivated</h4>
+                <p>Subscribe to receive workout tips, schedules, and event announcements.</p>
+                <form class="newsletter-form" id="newsletterForm" onsubmit="event.preventDefault(); alert('Subscribed successfully!'); this.reset();">
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit" aria-label="Subscribe"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-inner">
+                <p class="copyright">&copy; 2026 Royal Fitness. All Rights Reserved.</p>
+                <p class="owner-tag">Owner: <span class="gold-text">Ahsan Jeho</span> | Developed with Pride</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal-overlay" id="successModal">
+        <div class="success-modal-card">
+            <div class="modal-success-icon">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h2>APPLICATION SUBMITTED!</h2>
+            <div class="gold-line center"></div>
+            <p class="modal-desc">
+                Congratulations, <strong id="modalUserName">Athlete</strong>! Your membership application for the <strong class="gold-text">Royal Premium Plan</strong> has been received.
+            </p>
+            <div class="modal-info-box">
+                <p><strong>Reference ID:</strong> <span id="modalRefId">RF-XXXXXX</span></p>
+                <p><strong>Phone:</strong> <span id="modalUserPhone">+92 XXX XXXXXXX</span></p>
+            </div>
+            <p class="modal-next-steps">
+                Ahsan Jeho's team will contact you on your phone number within 24 hours to confirm your membership card activation.
+            </p>
+            <button class="btn btn-gold btn-block" id="closeModalBtn">GET READY TO TRAIN</button>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
