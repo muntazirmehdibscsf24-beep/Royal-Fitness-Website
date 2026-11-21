@@ -2,6 +2,8 @@
 
 A responsive website for Royal Fitness Gym in Khairpur, Sindh. Visitors can explore training services, review membership information, and try a membership application form.
 
+[**View live demo**](https://royalfitness-iota.vercel.app/)
+
 ![Royal Fitness website hero artwork](assets/hero_bg.png)
 
 ## Features
